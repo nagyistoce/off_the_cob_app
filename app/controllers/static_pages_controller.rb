@@ -3,21 +3,12 @@ class StaticPagesController < ApplicationController
 	def home
 	end
 
-	def our_mission
-	end
-
-	def members
+	def locations
 	end
 
 	def contact_info
 	end
 
-	def directions
-	end
-		
-	def speakers
-	end
-
-	def networking
+	def chips
 	end
 end

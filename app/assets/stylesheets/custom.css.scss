@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-image: url('images/corn_background.jpg');
+  background-image: url(/assets/white_paper_background.jpg);
 }
 
 section {
@@ -117,11 +117,13 @@ top:60px;
 
 footer {
   background-color:#C0C0C0;
-  height:200px;
-  width:100%;
+  height:100px;
   margin-top: 45px;
   padding-top: 5px;
   color: #999;
+  border-radius:10px;
+  margin-bottom:1%;
+  opacity:.7;
 }
 
 footer a {
@@ -178,6 +180,20 @@ footer ul li {
 
 /* Home */
 
+.tintup-holder {
+  border: solid $grey 2px;
+  border-radius:3px;
+}
+
+.twitter {
+  border: solid $grey 2px;
+  border-radius:3px;
+}
+
+.middle {
+
+}
+
 .box {
   border: solid 5px $grey
 }
@@ -199,19 +215,10 @@ footer ul li {
   margin-bottom:20%;
 }
 
-/* Mexico Profile */
-
-#mp {
-  font-family: bold;
-  margin-right:100px;
-  margin-left:10%;
-}
-
-#flag {
-  width:295px;
-  height:197;
-  border:solid $green 5px;
-  opacity:0.8;
+#EasyLocator {
+  margin-left:5%;
+  border: solid $grey 3px;
+  border-radius:5px;
 }
 
 /* About */
@@ -224,35 +231,4 @@ footer ul li {
   height:65%;
   margin-top:10%;
   margin-left:100px;
-}
-
-/* About Babson College */
-
-#babson-logo {
- 
-}
-
-#about-babson {
-  margin-left:10%;
-}
-
-/* The Team */
-
-.member {
-  border: solid 5px;
-}
-
-.team {
-  margin-left:10%;
-  opacity:0.8;
-}
-
-/* Event One */
-
-#event_description {
-  margin-left:10%;
-}
-
-#event_info {
-  margin-top:10%;
 }

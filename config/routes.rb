@@ -3,15 +3,10 @@ OffTheCobApp::Application.routes.draw do
   root :to => 'static_pages#home'
 
   match "home" => "static_pages#home"
-  match "mexico_profile" => "static_pages#mexico_profile"
-  match "about_babson" => "static_pages#about_babson"
-  match "team" => "static_pages#team"
   match "about" => "static_pages#about"
-  match "event_one" => "static_pages#event_one"
   match "members" => "static_pages#members"
-  match "directions" => "static_pages#directions"
-  match "contact_info" => "static_pages#contact_info"
-  match "speakers" => "static_pages#speakers"
+  match "locations" => "static_pages#locations"
+  match "events" => "static_pages#events"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

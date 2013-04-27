@@ -4,16 +4,9 @@
    <div class="navbar">
     <div class="navbar-inner">
       <ul class="nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
-          Home
-          <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-          <li><%= link_to "Mexico Profile", "mexico_profile" %> </li>
-          <li><%= link_to "About Babson College", "about_babson" %></li>
-          <li><%= link_to "Team", "team" %></li>
-          </ul>
+       
+        <li>
+            <%= link_to "Home", root_path %>
         </li>
 
         <li>
@@ -31,16 +24,10 @@
           </ul>
         </li>
 
-        <li class="dropdown">
-          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
-          Contact
-          <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-          <li><%= link_to "Contact Info", "contact_info" %></li>
-          <li><%= link_to "Directions", "directions" %></li>
-          </ul>
+         <li>
+            <%= link_to "Locations", "locations" %>
         </li>
+
       </ul>
     </div>
    </div>
