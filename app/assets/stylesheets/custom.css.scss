@@ -1,0 +1,258 @@
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-image: url('images/corn_background.jpg');
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+.title {
+  margin-left:10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h3 {
+  color:#A00000;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+li {
+	margin-left:15px;
+	margin-right:15px;
+}
+
+/* header */
+
+.header {
+
+}
+
+.navbar {
+opacity:1.0;
+background-image: none;
+margin-top:-41px;
+margin-right:37.5%;
+}
+
+  .navbar-inner {
+    background: $green;
+    filter: none;
+    opacity:.7;
+}
+
+.navbar .nav > li > a {
+  text-shadow: none;
+  color: #FFFFFF;
+  }
+
+.nav {
+padding-left:50px;
+text-shadow: none;
+}
+
+#logo {
+position:absolute;
+margin-left:10%;
+top:60px;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Footer */
+
+footer {
+  background-color:#C0C0C0;
+  height:200px;
+  width:100%;
+  margin-top: 45px;
+  padding-top: 5px;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+/* Carousel */
+
+.banner {
+  border:2px solid #a1a1a1;
+  background:#dddddd;
+  width:100%;
+  /* border-radius:20px;
+  -moz-border-radius:25px; /* Old Firefox */
+}
+
+.item {
+	margin: auto;
+  position:absolute;
+  z-index:-1;
+  width:600px;
+  height:100%;
+}
+.carousel {
+	margin-top:1%;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+}
+
+.carousel-inner {
+}
+
+.carousel-control {
+}
+
+/* Home */
+
+.box {
+  border: solid 5px $grey
+}
+
+/* Directions */
+
+.map {
+  margin-left:10%;
+}
+
+#location{
+  margin-left:10%;
+}
+
+/* Contact Info */
+
+#contact-info{
+  margin-left:10%;
+  margin-bottom:20%;
+}
+
+/* Mexico Profile */
+
+#mp {
+  font-family: bold;
+  margin-right:100px;
+  margin-left:10%;
+}
+
+#flag {
+  width:295px;
+  height:197;
+  border:solid $green 5px;
+  opacity:0.8;
+}
+
+/* About */
+#ap {
+  margin-left:10%;
+}
+
+#about-image{
+  width:65%;
+  height:65%;
+  margin-top:10%;
+  margin-left:100px;
+}
+
+/* About Babson College */
+
+#babson-logo {
+ 
+}
+
+#about-babson {
+  margin-left:10%;
+}
+
+/* The Team */
+
+.member {
+  border: solid 5px;
+}
+
+.team {
+  margin-left:10%;
+  opacity:0.8;
+}
+
+/* Event One */
+
+#event_description {
+  margin-left:10%;
+}
+
+#event_info {
+  margin-top:10%;
+}

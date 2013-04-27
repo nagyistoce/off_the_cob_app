@@ -1,0 +1,47 @@
+<div class="header">
+  <center><%= image_tag('top_banner.jpg') %></center>
+
+   <div class="navbar">
+    <div class="navbar-inner">
+      <ul class="nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
+          Home
+          <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <li><%= link_to "Mexico Profile", "mexico_profile" %> </li>
+          <li><%= link_to "About Babson College", "about_babson" %></li>
+          <li><%= link_to "Team", "team" %></li>
+          </ul>
+        </li>
+
+        <li>
+            <%= link_to "About", "about" %>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
+          Events
+          <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <li><%= link_to "2013 Babson Mexican Conference", "event_one" %> 
+          </li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+          Contact
+          <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <li><%= link_to "Contact Info", "contact_info" %></li>
+          <li><%= link_to "Directions", "directions" %></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+   </div>
+</div>
